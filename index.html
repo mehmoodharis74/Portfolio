@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  
+
+    <!-- header -->
+    <section>
+        <header>
+            <div class="container flex shrink mx-auto py-4 px-6 md:py-6 md:px-16">
+                
+                    <div class="logo_div">
+                        <a href="index.html" class="text-3xl font-bold">Portfolio</a >
+                    </div>
+                    <div class="nav_bar_div">
+                    <ul class="header_nav_link_list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        
+                    
+                    </ul>
+                    </div>
+                    <div class="nav_contact_button_div">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="nav_contact_button">Contact</a>
+                    </div>
+                    <div id="side_bar_button" class="side_menue_opener"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </header>
+    </section>
+    <!-- end header -->
+    <!-- side bar -->
+    <section class="section_sidebar">
+    <div id="sidebar_panel" class="sidebar">
+        <div id="close_sidebar_button" class="close_sidebar_button"><i class="fa-solid fa-xmark"></i></div>
+        <div class="sidebar_content">
+            <!-- seach bar -->
+            <div class="seachbar_main_div">
+                <input type="search" name="seach" id="sidebar_searchbar" placeholder="Search here">
+                <div data-search class="sidebar_searchbar_icon_div"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="sidebar_content_body">
+                <ul class="sidebar_content_body_list">
+                    <li><a id="sidebar_home" href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="border-solid border-2 border-white nav_contact_button_sidebar_div hover:bg-white hover:text-black">
+                <i class="fa-solid fa-phone"></i>
+                <a class="nav_contact_button">Contact</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- main -->
+    <!-- --------------------main ends here -->
+    <!-- -------------------footer -->
+    <section class="footer_section">
+        <footer> 
+            <div class="main_footer_div bg-red">
+                <div class="about_me_main_div">
+                    <h1>About Me!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque odit, labore qui, vel quis non earum voluptatem dolor quod, nesciunt veniam repellat ab.</p>
+                </div>
+                <div class="social_links_main_div">
+                    <h1>Social Links</h1>
+                    <ul class="social_links_list">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                    </ul>
+                </div>
+                <div class="related_links_main_div">
+                    <h1>Related Links</h1>
+                    <ul class="related_links_list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Expertise</a></li>
+                        <li><a href="#">Contact</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="related_links_main_div">
+                    <h1>Related Links</h1>
+                    <ul class="related_links_list">
+                        <li><a id="sidebar_home" href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Expertise</a></li>
+                        <li><a href="#">Contact</a></li>
+                   
+                    </ul>
+                </div>
+               
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <a href="facebook/mehmoodharis74/" target="_blank">Hakeem</a></p>
+            </div>
+        </footer>
+    </section>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
